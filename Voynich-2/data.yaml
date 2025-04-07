@@ -1,0 +1,13 @@
+train: /home/jakub/school/Semestral Project/Voynich-2/train/images
+val: /home/jakub/school/Semestral Project/Voynich-2/train/images
+test: /home/jakub/school/Semestral Project/Voynich-2/test/images
+
+nc: 7
+names: ['can', 'ornament_circle', 'people', 'person', 'plant', 'root', 'vase']
+
+roboflow:
+  workspace: voynich
+  project: voynich
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/voynich/voynich/dataset/2
